@@ -15,6 +15,7 @@ import java.lang.reflect.Method;
  */
 @Component
 @Aspect
+//lack of @EnableAspectJAutoProxy annotation
 public class LogAspect {
 
     /**
